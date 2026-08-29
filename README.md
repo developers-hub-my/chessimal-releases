@@ -10,10 +10,24 @@ closed source. Grab a build from [Releases](../../releases/latest).
 
 | Platform | File | Notes |
 |---|---|---|
-| macOS 14+ | `Chessimal.dmg` | Signed and notarised by Apple — open it normally. |
-| Windows 10/11 (x64) | `Chessimal-windows-x64.zip` | Unzip anywhere and run `chessimal.exe`. Windows SmartScreen shows a warning because the build is not code-signed: choose **More info → Run anyway**. |
+| macOS 14+ | `Chessimal.dmg` | **Not signed or notarised yet.** macOS refuses it on the first try — open **System Settings → Privacy & Security**, scroll down, and choose **Open Anyway**. |
+| Windows 10/11 (x64) | `Chessimal-windows-x64.zip` | Not published yet — the Windows port has not been compiled. |
 
 Android and iOS builds are not published here.
+
+## Screenshots
+
+Every screenshot is drawn by the app itself, by the integration-test harnesses in the source
+tree — nothing here is a mockup or a touched-up render.
+
+| | |
+|---|---|
+| ![Home](screenshots/home.png) | ![Playing a game](screenshots/game.png) |
+| **Home** — level, XP and everything one tap away | **Play** — the board, a clock and a Chessimal opponent |
+| ![Wild encounter](screenshots/encounter.png) | ![Solving a puzzle](screenshots/puzzle-solving.png) |
+| **Encounter** — beat a wild Chessimal to catch it | **Puzzles** — a daily puzzle and tactic themes |
+| ![A lesson](screenshots/lesson-explain.png) | ![Game review](screenshots/review-summary.png) |
+| **Lessons** — 24 of them, written for ages 7–10 | **Review** — what went well, what to look at again |
 
 ## What it does
 
