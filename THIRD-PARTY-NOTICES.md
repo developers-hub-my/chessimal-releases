@@ -46,7 +46,9 @@ The following pub.dev packages are linked into the app:
 | `drift`, `drift_flutter` | MIT |
 | `ffi` | BSD-3-Clause |
 | `flutter_riverpod` | MIT |
+| `flutter_secure_storage` | BSD-3-Clause |
 | `go_router` | BSD-3-Clause |
+| `google_sign_in` | BSD-3-Clause |
 | `image` | MIT |
 | `image_picker` | BSD-3-Clause |
 | `package_info_plus` | BSD-3-Clause |
