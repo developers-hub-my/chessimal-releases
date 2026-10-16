@@ -21,7 +21,7 @@ every dependency is MIT, BSD, Apache-2.0, ISC, Zlib or CC0 — no copyleft code 
 
 | Component | Licence | Use |
 |---|---|---|
-| [Maia-2](https://github.com/CSSLab/maia2) (CSSLab, University of Toronto) | MIT | Human-like opponent move prediction |
+| [Maia-2](https://github.com/CSSLab/maia2) (CSSLab, University of Toronto) | MIT | Human-like opponent move prediction. The exported model is not in the app; it is the optional download on this repo's `packs` release |
 | [ONNX Runtime](https://onnxruntime.ai/) (Microsoft) | MIT | Runs the Maia-2 model on device |
 | [flutter_onnxruntime](https://pub.dev/packages/flutter_onnxruntime) | MIT | Flutter bindings for ONNX Runtime |
 
@@ -42,6 +42,7 @@ The following pub.dev packages are linked into the app:
 |---|---|
 | `crop_your_image` | Apache-2.0 |
 | `cupertino_icons` | MIT |
+| `crypto` | BSD-3-Clause |
 | `dio` | MIT |
 | `drift`, `drift_flutter` | MIT |
 | `ffi` | BSD-3-Clause |
